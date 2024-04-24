@@ -1,0 +1,252 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "workspaceName": {
+            "value": "mlw-dp100-arm"
+        },
+        "description": {
+            "value": "This example shows how to create a basic workspace"
+        },
+        "friendlyName": {
+            "value": "Basic workspace-example"
+        },
+        "kind": {
+            "value": "default"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "resourceGroupName": {
+            "value": "bootcamp-dp100"
+        },
+        "storageAccountOption": {
+            "value": "new"
+        },
+        "storageAccountName": {
+            "value": "mlwdp100storagef05d3b9d2"
+        },
+        "storageAccountType": {
+            "value": "Standard_LRS"
+        },
+        "storageAccountBehindVNet": {
+            "value": "false"
+        },
+        "storageAccountResourceGroupName": {
+            "value": "bootcamp-dp100"
+        },
+        "storageAccountLocation": {
+            "value": "eastus"
+        },
+        "keyVaultOption": {
+            "value": "new"
+        },
+        "keyVaultName": {
+            "value": "mlwdp100keyvault6d32854a"
+        },
+        "keyVaultBehindVNet": {
+            "value": "false"
+        },
+        "keyVaultResourceGroupName": {
+            "value": "bootcamp-dp100"
+        },
+        "keyVaultLocation": {
+            "value": "eastus"
+        },
+        "applicationInsightsOption": {
+            "value": "new"
+        },
+        "logAnalyticsName": {
+            "value": "mlwdp100logalyti4a3c87da"
+        },
+        "logAnalyticsArmId": {
+            "value": "/subscriptions/3bb6.......446e/resourceGroups/bootcamp-dp100/providers/Microsoft.OperationalInsights/workspaces/mlwdp100logalyti4a3c87da"
+        },
+        "applicationInsightsName": {
+            "value": "mlwdp100insightsf9ca52b6"
+        },
+        "applicationInsightsResourceGroupName": {
+            "value": "bootcamp-dp100"
+        },
+        "applicationInsightsLocation": {
+            "value": "eastus"
+        },
+        "containerRegistryOption": {
+            "value": "none"
+        },
+        "containerRegistryName": {
+            "value": "name"
+        },
+        "containerRegistrySku": {
+            "value": "Standard"
+        },
+        "containerRegistryResourceGroupName": {
+            "value": ""
+        },
+        "containerRegistryBehindVNet": {
+            "value": "false"
+        },
+        "containerRegistryLocation": {
+            "value": "eastus"
+        },
+        "vnetOption": {
+            "value": "existing"
+        },
+        "vnetName": {
+            "value": "name"
+        },
+        "vnetResourceGroupName": {
+            "value": "name"
+        },
+        "addressPrefixes": {
+            "value": [
+                "10.0.0.0/16"
+            ]
+        },
+        "subnetOption": {
+            "value": "existing"
+        },
+        "subnetName": {
+            "value": "default"
+        },
+        "subnetPrefix": {
+            "value": "10.0.0.0/24"
+        },
+        "adbWorkspace": {
+            "value": ""
+        },
+        "confidential_data": {
+            "value": "false"
+        },
+        "encryption_status": {
+            "value": "Disabled"
+        },
+        "cmk_keyvault": {
+            "value": ""
+        },
+        "resource_cmk_uri": {
+            "value": ""
+        },
+        "privateEndpointType": {
+            "value": "none"
+        },
+        "tagValues": {
+            "value": {
+                "createdByToolkit": "sdk-v2-1.15.0"
+            }
+        },
+        "privateEndpointName": {
+            "value": "name"
+        },
+        "privateEndpointResourceGroupName": {
+            "value": "name"
+        },
+        "imageBuildCompute": {
+            "value": ""
+        },
+        "publicNetworkAccess": {
+            "value": "Enabled"
+        },
+        "soft_delete_enabled": {
+            "value": "false"
+        },
+        "allow_recover_softdeleted_workspace": {
+            "value": "false"
+        },
+        "encryption_cosmosdb_resourceid": {
+            "value": ""
+        },
+        "encryption_storage_resourceid": {
+            "value": ""
+        },
+        "encryption_search_resourceid": {
+            "value": ""
+        },
+        "identity": {
+            "value": {
+                "type": "SystemAssigned"
+            }
+        },
+        "primaryUserAssignedIdentity": {
+            "value": ""
+        },
+        "managedNetwork": {
+            "value": {
+                "isolationMode": "Disabled",
+                "outboundRules": {}
+            }
+        },
+        "spark_runtime_version": {
+            "value": ""
+        },
+        "offlineStoreStorageAccountOption": {
+            "value": "none"
+        },
+        "offline_store_storage_account_name": {
+            "value": "sa4ldtsj6sckrty"
+        },
+        "offline_store_container_name": {
+            "value": "offlinestoreda0c3867-2981-4a56-a156-b7777be19905"
+        },
+        "offline_store_resource_group_name": {
+            "value": "bootcamp-dp100"
+        },
+        "offline_store_subscription_id": {
+            "value": "3bb6.......446e"
+        },
+        "offline_store_connection_name": {
+            "value": ""
+        },
+        "online_store_resource_id": {
+            "value": ""
+        },
+        "online_store_resource_group_name": {
+            "value": ""
+        },
+        "online_store_subscription_id": {
+            "value": ""
+        },
+        "online_store_connection_name": {
+            "value": ""
+        },
+        "materializationIdentityOption": {
+            "value": "none"
+        },
+        "materialization_identity_name": {
+            "value": "empty"
+        },
+        "materialization_identity_subscription_id": {
+            "value": "3bb6.......446e"
+        },
+        "materialization_identity_resource_group_name": {
+            "value": "bootcamp-dp100"
+        },
+        "grant_materialization_permissions": {
+            "value": "true"
+        },
+        "enable_data_isolation": {
+            "value": "false"
+        },
+        "workspace_hub_config": {
+            "value": {}
+        },
+        "existing_workspaces": {
+            "value": []
+        },
+        "workspace_hub": {
+            "value": ""
+        },
+        "serverless_compute_settings": {
+            "value": {}
+        },
+        "endpoint_resource_id": {
+            "value": "null"
+        },
+        "endpoint_kind": {
+            "value": "AIServices"
+        },
+        "endpoint_option": {
+            "value": "new"
+        }
+    }
+}
