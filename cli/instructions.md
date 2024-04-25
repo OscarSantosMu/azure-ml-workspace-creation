@@ -14,4 +14,6 @@ Follow any prompts or provide necessary inputs as required during the execution 
 
 After the execution is complete, you should have successfully created an Azure Machine Learning workspace.
 
+![](cli-demo.png)
+
 Remember to review the script or individual commands before running them to ensure they align with your requirements and environment.
